@@ -1,0 +1,14 @@
+:root{
+    --bodycolor:#FC7753;
+    --pcolor: #2ca58d;
+}
+
+body{
+    
+    font-family: 'Charm', cursive;  
+    color: var(--bodycolor); 
+}
+
+.hello{
+    color: var(--pcolor);
+}
