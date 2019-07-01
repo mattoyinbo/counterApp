@@ -13,18 +13,19 @@
    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    
     <div class="container">
-        <br>
-        <br>
-        <div class="row max-height align-items-center text-center ">
-        <div class="col"><button id="btn" class="btn btn-info">
-            click me
-        </button></div>
+        <div class="row max-height align-items-center">
+         <div class="col-10 mx-auto col-md-6 text-center main-container p-5">
+          <h1 class="text-uppercase">counter</h1>
+          <h1 id="counter">0</h1>
+          <div class="btn-container d-flex justify-content-around flex-wrap">
+           <button class="btn counterBtn prevBtn text-uppercase m-2">lower count</button>
+           <button class="btn counterBtn nextBtn text-uppercase m-2">add count</button>
+          </div>
+         </div>
         </div>
-        <div class="row align-items-center text-center"><div class="col-6" id="hex">
-            <p id="hexvalue"></p>  
-        </div></div>      
-    </div>
+       </div>
     
 <!--jquery-->
 <script src="js/jquery-3.4.1.min.js"></script>
